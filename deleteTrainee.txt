@@ -1,2 +1,0 @@
---this file will delete record when user provides traineeId--
-delete from traineeManagement where traineeId= traineeIdInput
