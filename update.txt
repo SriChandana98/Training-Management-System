@@ -1,0 +1,6 @@
+1)please select your role a)trainee b)employee
+2)read input //read a or b
+3)read empid
+4)alter table <tablename> add column <columnname> <attributes>
+5)update <tablename> set col=" " where empid=" "
+6)select * from <tablename> where empid=" "
