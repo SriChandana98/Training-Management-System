@@ -1,0 +1,40 @@
+emplSelect the category :
+-trainer
+-trainee
+/* on slecting you will be aggregated to particular table
+enter the empid :
+read empid
+select the attribute to be modified:
+trainee name
+trainee contact
+trainee address
+trainee email
+trainee hiredate
+
+read the attribute
+
+enter the attribute_value
+read attribute_value
+
+update table trainee where empid = $empid set attribute=attribute_value
+
+
+
+enter the empid :
+read empid
+select the attribute to be modified:
+trainer name
+trainer contact
+trainer address
+trainer email
+trainer hiredate
+trainer subject
+
+
+read the attribute
+
+enter the attribute_value
+read attribute_value
+
+update table trainer where empid = $empid set attribute=attribute_value
+
