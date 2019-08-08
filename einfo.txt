@@ -1,0 +1,13 @@
+CREATE table employee_table (empid varchar(30) not null , empname varchar(30) not null, doj DATE, addr varchar(50),
+                              contact_details INT , primary key (empid) );
+
+INSERT into employee_table(1, Riya Bhattacharjee , 22-07-2019 , Indira Nagar , 12345 );
+INSERT into employee_table(2, Snehitha Linga, 22-07-2019 , Mallapur , 12335 );
+INSERT into employee_table(3, Poojitha Juttiga , 22-07-2019 , Sun city , 22222);
+INSERT into employee_table(4, Chandana , 22-07-2019 , Nizampeet , 12345 );
+INSERT into employee_table(5, Kaushini , 22-07-2019 , Goulidoody , 12333 );
+
+
+
+SELECT empid , empname , doj , addr , contact_details from employee_table;
+
